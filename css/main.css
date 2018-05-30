@@ -67,7 +67,7 @@ main {
 
 .main-image {
   height: auto;
-  width:100%;
+  width: 100%;
   padding-bottom: 2em;
 }
 
@@ -77,16 +77,6 @@ aside {
   width: 100%;
   margin-top: 4%;
   margin-bottom: 1%;
-}
-
-.flex-container {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  flex-wrap: wrap;
-
 }
 
 .color-blocks {
