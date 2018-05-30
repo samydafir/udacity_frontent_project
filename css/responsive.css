@@ -1,0 +1,60 @@
+/*
+ * CSS document
+ * contains styles for responsiveness
+ */
+
+@media screen and (min-width: 700px) {
+
+/* HEADER */
+  header {
+    text-align: right;
+    padding: 2%;
+  }
+
+  .header-logo {
+    float: left;
+    display: inline;
+    width: 10%;
+  }
+
+ /* MAIN */
+  .featured-work-title {
+    text-align: left;
+  }
+
+}
+
+@media screen and (min-width: 900px) {
+  /* HEADER */
+  header {
+    position: relative;
+    width: 80%;
+    left:20%;
+  }
+
+  /* ASIDE */
+  aside {
+    width: 20%;
+    height: 0;
+    left: 0;
+    top: 15%;
+    margin: 0;
+  }
+   /* MAIN */
+
+  main {
+    position: relative;
+    width: 80%;
+    top: 15%;
+    left: 20%;
+  }
+
+}
+
+@media screen and (min-width: 1280px) {
+  body {
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

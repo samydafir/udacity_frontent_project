@@ -1,0 +1,116 @@
+/*
+ * CSS document
+ * contains  default styles for smallest viewport
+ */
+
+body {
+  box-sizing: border-box !important;
+  color: #2d3c49;
+  font-family: "Lato", "sans-serif";
+}
+
+/* HEADER */
+header {
+  height: 15%;
+  width: 100%;
+  text-align: center;
+  border-bottom: 3px solid #7d97ad;
+  padding: 1%;
+}
+
+.not-bold {
+  display: inline-block;
+  font-weight: lighter;
+}
+
+.header-logo {
+    display: block;
+    width:100%;
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+
+
+/* MAIN */
+
+main {
+  width: 100%;
+  padding: 2%;
+}
+
+.featured-work-image {
+  width: 100%;
+  height: 70%;
+  border: 1px solid #2d3c49;
+}
+
+.featured {
+  text-align: center;
+}
+
+.featured-work-title {
+  text-align: center;
+  font-size: 1.9em;
+  color: #7d97ad;
+  padding-bottom: 0.5em;
+}
+
+.featured-title {
+    font-size: 1.4em;
+}
+
+.featured-subtitle {
+  word-wrap: break-word;
+  font-size: 0.8em;
+}
+
+.main-image {
+  height: auto;
+  width:100%;
+  padding-bottom: 2em;
+}
+
+/* ASIDE */
+
+aside {
+  width: 100%;
+  margin-top: 4%;
+  margin-bottom: 1%;
+}
+
+.flex-container {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.color-blocks {
+  width: 70px;
+  height: 70px;
+}
+
+.centering {
+  margin: 0 auto;
+}
+
+.caption {
+  width: 70px;
+  height: auto;
+}
+
+#color-block1 {
+  background-color: #02b3e4;
+}
+
+#color-block2 {
+  background-color: #2d3c49;
+}
+
+#color-block3 {
+  background-color: #7d97ad;
+}
