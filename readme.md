@@ -7,4 +7,3 @@
 * https://upload.wikimedia.org/wikipedia/commons/7/75/Sunrise_in_Morocco.jpg
 * https://upload.wikimedia.org/wikipedia/commons/c/c7/Digiteca_Brasil_São_Paulo_-_Brazil-_2013_-_by_Celso_Singo_Aramaki_05.jpg
 
-### Udacity Logo
